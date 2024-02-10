@@ -40,8 +40,6 @@ some of the following config parameters :
 
 ### Examples:
 
-#### Custom font, icons
-
 ```lua
 local weather_widget = require("wttr-widget.weather")
 local wttr = weather_widget({
