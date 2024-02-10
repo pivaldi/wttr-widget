@@ -13,7 +13,7 @@ This widget has three modes :
 2. Used as a tooltip *when mouse enter hover the widget* in the widgets-bar :
 
 <p align="center">
- <img src="./screenshots/tooltip.png" alt="screenshot widget in a tooltip" style="max-width:100%;">
+ <img src="./screenshots/tooltip1.png" alt="screenshot widget in a tooltip" style="max-width:100%;">
 </p>
 
 3. Used in a terminal popup to fetch the forecasts *clicking in the widgets* :
