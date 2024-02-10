@@ -70,7 +70,7 @@ local function wttr_widget(user_args)
   local args = user_args or {}
   local location = args.location or "Oymyakon"
   local format = args.format or "%c%t/%f+%m"
-  local format_hover = args.format_hover or "%c%C+🌡️%t/%f+💦%p/%h+💨%w+〽%P+%m"
+  local format_tooltip = args.format_tooltip or "%c%C+🌡️%t/%f+💦%p/%h+💨%w+〽%P+%m"
   local font = args.font or (beautiful.font:gsub("%s%d+$", "") .. " 9")
   local units = args.units or 'm'
   local timeout = args.timeout or 120
@@ -78,7 +78,7 @@ local function wttr_widget(user_args)
   local terminal = args.terminal or "urxvt"
 
   local cmd = get_cmd(location, format, lang, units)
-  local cmd_hover = get_cmd(location, format_hover, lang, units)
+  local cmd_hover = get_cmd(location, format_tooltip, lang, units)
   local api_url_forecast = get_api_url(location, nil, lang, units)
   local script_path = filesystem.get_configuration_dir() .. WGD_NAME .. "/wttr.sh"
   local cache_path = filesystem.get_cache_dir() .. WGD_NAME .. "/forecast.txt"
@@ -96,8 +96,8 @@ local function wttr_widget(user_args)
         },
         layout = wibox.layout.fixed.horizontal,
       },
-      left = 4,
-      right = 4,
+      left = 1,
+      right = 1,
       layout = wibox.container.margin
     },
     widget = wibox.container.background,
