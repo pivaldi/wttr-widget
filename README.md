@@ -19,7 +19,7 @@ This widget has three modes :
 3. Used in a terminal popup to fetch the forecasts *clicking in the widgets* :
 
 <p align="center">
- <img src="./screenshots/forecast.png" alt="screenshot of popup forecasts" style="max-width:100%;">
+ <img src="./screenshots/forecast1.png" alt="screenshot of popup forecasts" style="max-width:100%;">
 </p>
 
 
