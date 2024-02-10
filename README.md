@@ -69,14 +69,7 @@ local wttr = weather_widget({
         { -- Right widgets
             layout = wibox.layout.fixed.horizontal,
             ...
-            --default
             weather_widget({
-                api_key='<your-key>',
-                coordinates = {45.5017, -73.5673},
-            }),
-            ,
-            --customized
-            weather_curl_widget({
                 location = "ccf",
                 lang = "fr",
             }),
