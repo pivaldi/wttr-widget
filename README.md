@@ -5,23 +5,17 @@ Inspired by [The Streetturtle Weather Widget](https://github.com/streetturtle/aw
 This widget has three modes :
 
 1. Used in the widget-bar :
-
-<p align="center">
- <img src="./screenshots/bar.png" alt="screenshot widget in the widget-bar" style="max-width:100%;">
-</p>
-
-2. Used as a tooltip *when mouse enter hover the widget* in the widgets-bar :
-
-<p align="center">
- <img src="./screenshots/tooltip1.png" alt="screenshot widget in a tooltip" style="max-width:100%;">
-</p>
-
-3. Used in a terminal popup to fetch the forecasts *clicking in the widgets* :
-
-<p align="center">
- <img src="./screenshots/forecast1.png" alt="screenshot of popup forecasts" style="max-width:100%;">
-</p>
-
+   <p align="center">
+       <img src="./screenshots/bar.png" alt="screenshot widget in the widget-bar" style="max-width:100%;">
+   </p>
+1. Used as a tooltip **when mouse enter hover the widget** in the widgets-bar :
+   <p align="center">
+       <img src="./screenshots/tooltip1.png" alt="screenshot widget in a tooltip" style="max-width:100%;">
+   </p>
+1. Used in a terminal popup to fetch the forecasts **clicking on the widgets** :
+   <p align="center">
+       <img src="./screenshots/forecast1.png" alt="screenshot of popup forecasts" style="max-width:100%;">
+   </p>
 
 ## Customization
 
