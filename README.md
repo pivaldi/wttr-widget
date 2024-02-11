@@ -31,6 +31,7 @@ some of the following config parameters :
 | Name | Default | Description |
 |------|---------|-------------|
 | location | "Oymyakon" | See [the supported location types](https://wttr.in/:help) |
+| timeout | 120 | Refresh timeout |
 | format | "%c%t/%f+%m" | The online output used in the widget-bar. See [the One-line output](https://github.com/chubin/wttr.in?tab=readme-ov-file#one-line-output) |
 | format_tooltip | "%c%C+🌡️%t/%f+💦%p/%h+💨%w+〽%P+%m" | The online output used in the tooltip. |
 | font | `beautiful.font:gsub("%s%d+$", "") .. " 9"` | The font to use in the widget bar/tooltip |
